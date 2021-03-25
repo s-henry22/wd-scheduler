@@ -20,6 +20,23 @@ body {
     border-radius: 0;
     border-bottom: 10px solid black;
   }
+
+  /* Style the time blocks */
+  .container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  }
+  .hour-block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      border-bottom: 1px solid black;
+      border-top: 1px solid black;
+      padding: 25px;
+  }
   
   .description{
     white-space: pre-wrap;
