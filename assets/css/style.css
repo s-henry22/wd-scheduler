@@ -35,8 +35,34 @@ body {
       justify-content: space-between;
       border-bottom: 1px solid black;
       border-top: 1px solid black;
-      padding: 25px;
+      background-color: chartreuse;
   }
+
+  .hour-text {
+      padding-top: 15px;
+      border-right: 1px solid black;
+      text-align: right;
+      width: 100px;
+      background-color: white;
+  }
+
+  .hour-description {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      max-width: 600px;
+      text-align: left;
+      max-height: 100px;
+  }
+
+  button {
+      height: 100px;
+      width: 100px;
+      background-image: url("../images/save-icon.jpeg");
+      background-size: 95px 95px;
+      border-radius: 10px;
+      background-color: white;
+  }
+
   
   .description{
     white-space: pre-wrap;
