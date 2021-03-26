@@ -15,7 +15,7 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: #add8e6;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
@@ -70,6 +70,14 @@ body {
       background-size: 95px 95px;
       border-radius: 10px;
       background-color: white;
+  }
+
+  .night {
+      background-color: red;
+  }
+
+  .daytime {
+      background-color: green;
   }
 
   /* End time block styling */
